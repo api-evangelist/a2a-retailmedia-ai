@@ -66,7 +66,7 @@
 
 A2A Retailmedia is an agentic commerce hub that connects grocery retailers with makers through a Model Context Protocol (MCP) door. It enables retailers to claim media cards for each grocery banner and allows makers’ agents to discover and purchase media placements. The platform supports over 8,600 grocery banners across 20 markets, handling hundreds of thousands of makers. It offers self‑service setup, card claiming, and enrollment flows, and provides documentation and API access via a developer portal. Powered by gtinfetch.ai, A2A Retailmedia aims to streamline media buying on the shelf.
 
-**Areas:** Retail · Media · Agentic · Grocery · API
+**Areas:** Retail · Media · AI Agents · Grocery
 
 ## A2A Retailmedia on APIs.io
 
@@ -80,18 +80,24 @@ Everything profiled for A2A Retailmedia is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [a2a-retailmedia-ai-mcp.yml](https://apis.io/servers/a2a-retailmedia-ai/a2a-retailmedia-ai-mcp-yml/)
+
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [A2A Retailmedia Ai Authentication](https://apis.io/security/a2a-retailmedia-ai/a2a-retailmedia-ai-authentication/)
-- [A2A Retailmedia Ai Domain Security](https://apis.io/security/a2a-retailmedia-ai/a2a-retailmedia-ai-domain-security/)
+- [A2A Retailmedia Authentication](https://apis.io/security/a2a-retailmedia-ai/a2a-retailmedia-ai-authentication/)
+- [A2A Retailmedia Domain Security](https://apis.io/security/a2a-retailmedia-ai/a2a-retailmedia-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [A2A Retailmedia Ai Scopes](https://apis.io/scopes/a2a-retailmedia-ai/a2a-retailmedia-ai-scopes/)
+- [A2A Retailmedia Scopes](https://apis.io/scopes/a2a-retailmedia-ai/a2a-retailmedia-ai-scopes/)
 
 ## Where to find this API
 
@@ -106,18 +112,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 17.2** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 15.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 73.3 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 26.2 |
-| Access clarity | 21.1 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 17.0 |
 
-**Agent readiness 9.2** — agent-aware
+**Agent readiness 11.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -133,7 +139,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -142,8 +148,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/a2a-retailmedia-ai/](https://apis.io/providers/a2a-retailmedia-ai/).
 
